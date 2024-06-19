@@ -1,0 +1,48 @@
+/* styles.css
+.container {
+    background-color: aqua;
+  }
+  
+  .ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+  }
+  
+  .li {
+   
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+  transition: background-color 0.3s; 
+  margin: 0 10px;
+  }
+
+
+  @media screen and (max-width:501px){
+
+    .li{
+      padding: 14px ;
+    }
+  }
+
+  
+  @media screen and (max-width:872px){
+
+    .li{
+      padding: 50px ;
+    }
+  }
+   */
+
+  ul {
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+   }

@@ -1,0 +1,28 @@
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+
+    font-size: 200px;
+    font-weight: 100;
+    background-color: none;
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+
+.on{
+    color:gold
+}
+
+.off{
+    color:black
+}

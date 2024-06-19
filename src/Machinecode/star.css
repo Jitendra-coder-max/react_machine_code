@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+
+/* .star{
+    margin: 10px;
+    font-size: 70px;
+} */
+
+
+
+ button {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor:pointer;
+font-size: 200px;
+    
+} 
+
+
+
+
+.on{
+    color: gold
+  }
+  .off{
+    color: #ccc;
+  }
