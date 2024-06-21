@@ -1,47 +1,59 @@
-// src/InfiniteScroll.js
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
+// import View from './View';
+import './Scroll.css'
 const Scroll = () => {
-    const [items, setItems] = useState([]);
-    const [hasMore, setHasMore] = useState(true);
-    const [page, setPage] = useState(1);
+  const [response, setResponse] = useState([]);
+  const [page, setPage] = useState(0);
+  const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        loadItems();
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-
-    const loadItems = async () => {
-        try {
-            const response = await axios.get(`https://jsonplaceholder.typicode.com/users?page=${page}&limit=20`);
-            setItems(prevItems => [...prevItems, ...response.data]);
-            if (response.data.length === 0) {
-                setHasMore(false);
-            }
-        } catch (error) {
-            console.error('Error loading items:', error);
-        }
-    };
-
-    const handleScroll = () => {
-        if (window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight && hasMore) {
-            setPage(prevPage => prevPage + 1);
-            loadItems();
-        }
-    };
-
-    return (
-        <div>
-            <ul>
-                {items.map(item => (
-                    <li key={item.id}>{item.name}</li>
-                ))}
-            </ul>
-            {hasMore && <p>Loading more items...</p>}
-        </div>
+  const getData = async () => {
+    const res = await fetch(
+      `https://jsonplaceholder.typicode.com/posts?` +
+        new URLSearchParams({
+          _limit: 9,
+          _page: page,
+        })
     );
+    const data = await res.json();
+    setResponse((oldData) => [...oldData, ...data]);
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    getData();
+  }, [page]);
+  const handleInfiniteScroll = async () => {
+    if (
+      window.innerHeight + document.documentElement.scrollTop + 2 >=
+      document.documentElement.scrollHeight
+    ) {
+      setLoading(true);
+      setPage((prev) => prev + 1);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', handleInfiniteScroll);
+    return () => window.removeEventListener('scroll', handleInfiniteScroll);
+  }, []);
+
+  return (
+    <>
+     
+      <div className="wrapper">
+      <h1>Infinte scroll</h1>
+      {response.map((resp, index) => (
+        <div key={index} className="card">
+          <h2>{resp.title.slice(0,15)}</h2>
+          <p>{resp.body}</p>
+        </div>
+      ))}
+    </div>
+
+
+
+      {loading && <div className="loading"> </div>}
+    </>
+  );
 };
 
 export default Scroll;

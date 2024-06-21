@@ -1,0 +1,9 @@
+.folder{
+    font-weight: 100%;
+}
+
+.file{
+display: flex;
+    margin: 15px 0px 15px 15px;
+    flex-direction: column-reverse;
+}

@@ -1,4 +1,5 @@
-let dir = {
+const dir = 
+  {
     id: 1,
     name: "root",
     type: "folder",

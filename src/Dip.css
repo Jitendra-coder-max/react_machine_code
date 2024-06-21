@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    height: 200px;
+  }
+  
+  .container div {
+    background-color: DodgerBlue;
+    color: white;
+    /* width: 200px;  */
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+   
+  }
+  
+  .item1 {
+    flex-shrink: 0;
+  }
+  
+  .item2 {
+    flex-shrink: 1;
+    flex-basis: 200px;
+    align-self: center
+  }
+   
+  
+  
+  .item4 {
+
+    flex-grow: 1;
+   
+  }
+  
+
+  @media screen and (max-width: 600px) {
+
+    .container {
+      /* display: flex; */
+      flex-direction: column;
+
+    }
+    
+  }
