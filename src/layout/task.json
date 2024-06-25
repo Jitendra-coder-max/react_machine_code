@@ -1,0 +1,187 @@
+{
+    "workSheetColumns": [
+      {
+        "title": "Section A: Approve Request",
+        "multipleAnsweresAllowed": false,
+        "actionLabel": "Approve",
+        "cells": [
+          {
+            "description": "\u003Cp\u003EWhat is your rationale for approving this request?\u003C/p\u003E",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "description": "\u003Cp\u003EWhat is the financial impact of this request on this year's financial result? (Please specify the dollar impact as well as where this will show up in the financials.)\u003C/p\u003E",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "description": "\u003Cp\u003EWhat is the financial impact of this request on this year's financial result? (Please specify the dollar impact as well as where this will show up in the financials.)\u003C/p\u003E",
+            "value": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section B: Deny Request",
+        "multipleAnsweresAllowed": false,
+        "actionLabel": "Deny",
+        "cells": [
+          {
+            "description": "\u003Cp\u003EWhat is your rationale for denying this request?\u003C/p\u003E",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "description": "\u003Cp\u003EWhat additional information or support would you need in order to approve this?\u003C/p\u003E",
+            "value": [
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "tasks": {
+      "part1": {
+        "TaskName": "",
+        "SubTask": [
+          {
+            "TaskName": "Email 1 - Sourcing for Tungsten",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 1: Financial Investment Requests",
+              "description": "You are provided with information regarding four investment requests for your division. You are asked to make a decision about each and provide your rationale for agreeing or disagreeing with the investment requests. These are all un-budgeted proposals and requests from various individuals within the Camera Division. These requests are all above the $1 million threshold, which requires the budget approval of your boss, Dale Harris. Please review each request, and then provide to Dale your recommendation and rationale.",
+              "emailComponent": {
+                "header": "Email: Request 4-Sourcing Agreement for Tungsten",
+                "show": 1
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: Sourcing Agreement for Tungsten",
+                "show": 1
+              }
+            }
+          },
+          {
+            "TaskName": "Email 2 - New Line of Cameras",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 1: Financial Investment Requests",
+              "description": "",
+              "emailComponent": {
+                "header": "Email: Request 3 - Marketing for Bundled Solution",
+                "show": 1
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: New Line of Cameras",
+                "show": 1
+              }
+            }
+          },
+          {
+            "TaskName": "Email 3 - Mktg for Bundled Solution",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 1: Financial Investment Requests",
+              "description": "",
+              "emailComponent": {
+                "header": "Email: Request 3 - Marketing for Bundled Solution",
+                "show": 1
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: Marketing for Bundled Solution",
+                "show": 1
+              }
+            }
+          },
+          {
+            "TaskName": "Email 4 - Investing  In Our People",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 1: Financial Investment Requests",
+              "description": "",
+              "emailComponent": {
+                "header": "Email: Request 4 - Investing in Our People",
+                "show": 1
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: Investing in Our People",
+                "show": 1
+              }
+            }
+          }
+        ]
+      },
+      "part2": {
+        "TaskName": "",
+        "SubTask": [
+          {
+            "TaskName": "Financial Health Worksheet",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 2: Financial Health Response Worksheet",
+              "description": "You have been provided information about the current financial status of the business in the pre-work. Using this material located in the Background Information and in this document, provide a summary of the health of the Camera Division from a financial perspective and describe how you would enhance the financial performance of the business. Assume you are responding to Dale Harris",
+              "emailComponent": {
+                "header": "Email: Request 4 - Investing in Our People",
+                "show": 0
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: Financial Health",
+                "show": 1
+              }
+            }
+          }
+        ]
+      },
+      "part3": {
+        "TaskName": "",
+        "SubTask": [
+          {
+            "TaskName": "Email/Worksheet - Turnover/Talent Priorities",
+            "Status": "pending",
+            "metadata": {
+              "title": "Part 3: Talent Review Request",
+              "description": "",
+              "emailComponent": {
+                "header": "Email: Turnover/Talent Priorities",
+                "show": 1
+              },
+              "worksheetComponent": {
+                "header": "Worksheet: Turnover/Talent Priorities",
+                "show": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "emailColumns": [
+      {
+        "key": "From",
+        "value": ""
+      },
+      {
+        "key": "To",
+        "value": ""
+      },
+      {
+        "key": "CC",
+        "value": ""
+      },
+      {
+        "key": "Date",
+        "value": ""
+      },
+      {
+        "key": "Subject",
+        "value": ""
+      },
+      {
+        "key": "emailBody",
+        "value": ""
+      }
+    ]
+  }

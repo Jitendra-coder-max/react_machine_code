@@ -339,16 +339,250 @@
 
 // export default App
 
-import React from "react";
-import CommentList from "./CommentList";
-import "./comment.css";
+// import React from "react";
+// import CommentList from "./CommentList";
+// import "./comment.css";
+// const App = () => {
+//   return (
+//     <div className="App">
+//       App
+//       <CommentList />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+// import React from 'react'
+// import GridLayout from './layout/GridLayout'
+// const App = () => {
+//   return (
+//     <div>App
+//       < GridLayout />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// mui
+
+// import React from 'react';
+// import { Grid, Paper, Box, CssBaseline } from '@mui/material';
+// import { styled } from '@mui/material/styles';
+
+// const Header = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'red',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+// }));
+
+// const Sidebar1 = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'green',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+//   height: '100%',
+// }));
+
+// const Sidebar2 = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'pink',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+//   height: '100%',
+// }));
+
+// const Main = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'yellow',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   height: '100%',
+// }));
+
+// const Footer = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'blue',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+// }));
+
+// const FullHeightGrid = styled(Grid)({
+//   height: '100%',
+// });
+
+// const FullScreenContainer = styled(Box)({
+//   width: '100vw',
+//   height: '100vh',
+//   overflow: 'hidden',
+// });
+
+// function App() {
+//   return (
+//     <FullScreenContainer>
+//       <CssBaseline />
+//       <FullHeightGrid container spacing={2} direction="column">
+//         <Grid item >
+//           <Header>Header</Header>
+//         </Grid>
+//         <FullHeightGrid item container spacing={2} style={{ flex: 1 }}>
+//           <Grid item xs={12} md={3}>
+//             <Sidebar1>Sidebar 1</Sidebar1>
+//           </Grid>
+//           <Grid item xs={12} md={6}>
+//             <Main>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expedita modi
+//               repellat laboriosam nam id voluptatibus ab quae, quaerat accusamus
+//               voluptatum, cumque hic, repudiandae laudantium amet exercitationem
+//               numquam. Quaerat obcaecati deleniti quae ut repellendus praesentium
+//               modi illum corporis incidunt, nobis molestias inventore fugit
+//               voluptatibus tempora rem necessitatibus ipsam. Odio aperiam deserunt
+//               quia, enim voluptatem doloremque nobis exercitationem eum, quis,
+//               voluptate ullam minus quidem eos consectetur itaque! Soluta non
+//               similique quod quae odit? Possimus mollitia nemo itaque perferendis
+//               perspiciatis voluptates nostrum consequuntur saepe, aliquid,
+//               repellendus eligendi cumque explicabo adipisci aperiam velit earum
+//               repellat autem sequi? Asperiores soluta, tempore dolor suscipit enim
+//               possimus!
+//             </Main>
+//           </Grid>
+//           <Grid item xs={12} md={3}>
+//             <Sidebar2>Sidebar 2</Sidebar2>
+//           </Grid>
+//         </FullHeightGrid>
+//         <Grid item  xs={12} md={12}>
+//           <Footer>Footer</Footer>
+//         </Grid>
+//       </FullHeightGrid>
+//     </FullScreenContainer>
+//   );
+// }
+
+// export default App;
+
+// import React from 'react';
+// import { Grid, Paper, Box, CssBaseline } from '@mui/material';
+// import { styled } from '@mui/material/styles';
+
+// const Header = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'red',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+// }));
+
+// const Sidebar1 = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'green',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+//   height: '100%',
+// }));
+
+// const Sidebar2 = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'pink',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+//   height: '100%',
+// }));
+
+// const Main = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'yellow',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   height: '100%',
+// }));
+
+// const Footer = styled(Paper)(({ theme }) => ({
+//   backgroundColor: 'blue',
+//   padding: theme.spacing(2),
+//   textAlign: 'center',
+//   color: 'white',
+// }));
+
+// const FullHeightGrid = styled(Grid)({
+//   height: '100%',
+// });
+
+// const FullScreenContainer = styled(Box)({
+//   width: '100vw',
+//   height: '100vh',
+//   overflow: 'hidden',
+//   display: 'flex',
+//   flexDirection: 'column',
+// });
+
+// function App() {
+//   return (
+//     <FullScreenContainer>
+//       <CssBaseline />
+//       <Grid container direction="column" spacing={2} style={{ flex: 1 }}>
+//         <Grid item>
+//           <Header>Header</Header>
+//         </Grid>
+//         <FullHeightGrid item container spacing={2} style={{ flex: 1 }}>
+//           <Grid item xs={12} md={3}>
+//             <Sidebar1>Sidebar 1</Sidebar1>
+//           </Grid>
+//           <Grid item xs={12} md={6}>
+//             <Main>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expedita modi
+//               repellat laboriosam nam id voluptatibus ab quae, quaerat accusamus
+//               voluptatum, cumque hic, repudiandae laudantium amet exercitationem
+//               numquam. Quaerat obcaecati deleniti quae ut repellendus praesentium
+//               modi illum corporis incidunt, nobis molestias inventore fugit
+//               voluptatibus tempora rem necessitatibus ipsam. Odio aperiam deserunt
+//               quia, enim voluptatem doloremque nobis exercitationem eum, quis,
+//               voluptate ullam minus quidem eos consectetur itaque! Soluta non
+//               similique quod quae odit? Possimus mollitia nemo itaque perferendis
+//               perspiciatis voluptates nostrum consequuntur saepe, aliquid,
+//               repellendus eligendi cumque explicabo adipisci aperiam velit earum
+//               repellat autem sequi? Asperiores soluta, tempore dolor suscipit enim
+//               possimus!
+//             </Main>
+//           </Grid>
+//           <Grid item xs={12} md={3}>
+//             <Sidebar2>Sidebar 2</Sidebar2>
+//           </Grid>
+//         </FullHeightGrid>
+//         <Grid item >
+//           <Footer>Footer</Footer>
+//         </Grid>
+//       </Grid>
+//     </FullScreenContainer>
+//   );
+// }
+
+// export default App;
+
+
+// import React from 'react'
+// import dir from './datam/data';
+// import Folderr from './datam/Folderr';
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Folderr  dir={dir}/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+import Pagination from './Machinecode/Pagination'
 const App = () => {
   return (
-    <div className="App">
-      App
-      <CommentList />
+    <div>App
+      <Pagination />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
