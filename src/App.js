@@ -353,7 +353,6 @@
 
 // export default App;
 
-
 // import React from 'react'
 // import GridLayout from './layout/GridLayout'
 // const App = () => {
@@ -365,7 +364,6 @@
 // }
 
 // export default App
-
 
 // mui
 
@@ -559,7 +557,6 @@
 
 // export default App;
 
-
 // import React from 'react'
 // import dir from './datam/data';
 // import Folderr from './datam/Folderr';
@@ -574,13 +571,219 @@
 
 // export default App
 
+// import React from 'react'
+// import Pagination from './Machinecode/Pagination'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Pagination />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from "react";
+
+// import Accord from "./components/Accord";
+
+// const datas = [
+//   {
+//     id: 1,
+//     title: "Section 1",
+//     content: " Loren ipsum data is awesome in beautiful you should like it",
+//   },
+//   {
+//     id: 2,
+//     title: "Section 2",
+//     content:
+//       " Lorem ipsum data is not awesome  Loren ipsum data is awesome in beautiful you should like it hhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhLoren ipsum data is awesome in beautiful you should like it",
+//   },
+
+//   {
+
+//     id:3,
+//     title: 'section 2',
+//     content: ' Lorem ipsum data is rreallly good . it is a really good paragraph to read'
+//   }
+// ];
+
+// const App = () => {
+//   return (
+//     <div>
+//       App
+//       {
+//         datas.map(({title, content,id}) =>(
+//           <Accord  key={id}  title={title}  content={content}/>
+//         ))
+//       }
+    
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+// import React from 'react';
+
+// import Drop from './components/Drop';
+
+// const App = () => {
+//   return (
+//     <div>App
+//       <Drop />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Calculator from './components/Calculator'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Calculator />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Pagin from './components/Pagin'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Pagin/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+// import React from 'react'
+// import Pagination from './repeat10/Pagination'
+// const App = () => {
+//   return (
+//     <div>App
+
+// <Pagination/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Folder from './repeat10/Folder'
+// import dir from './repeat10/data';
+
+
+// const App = () => {
+
+//   console.log(dir)
+//   return (
+//     <div>App
+//       <Folder  dir={dir} />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Carousel from './repeat10/Carousel'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Carousel />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Infine from './repeat10/Infine'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Infine/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import ProgressBar from './repeat10/ProgressBar'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <ProgressBar />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import StarRat from './repeat10/StarRat'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <StarRat />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Timer from './repeat10/Timer'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Timer/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React, { useState } from 'react'
+// import StopWatch from './repeat10/StopWatch'
+
+
+
+// const App = () => {
+//   return (
+//     <div>App
+//       <StopWatch/>
+//     </div>
+//   )
+// }
+
+// export default App
 
 import React from 'react'
-import Pagination from './Machinecode/Pagination'
+import Search from './repeat10/Search'
 const App = () => {
   return (
     <div>App
-      <Pagination />
+
+      <Search />
     </div>
   )
 }

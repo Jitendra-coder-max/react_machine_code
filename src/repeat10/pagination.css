@@ -1,0 +1,48 @@
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pagination{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.pagination_single{
+
+    margin: 5px;
+    padding-left: 80px;
+    height: 400px;
+   
+}
+
+
+.pagination> img{
+width: 100%;
+height: 100%s;
+}
+
+
+.pagiantion_page{
+    display: flex;
+    justify-content: center;
+}
+/* 
+.product_pagiantion{
+
+    display: flex;
+    flex-direction: row;
+} */
+
+.selectPage{
+    border: 5px solid gray;
+    margin: 5px;
+    padding: 10px;
+}

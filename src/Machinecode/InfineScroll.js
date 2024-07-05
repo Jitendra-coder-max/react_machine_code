@@ -36,6 +36,7 @@ const InfineScroll = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleInfiniteScroll);
+    return () => window.removeEventListener("scroll", handleInfiniteScroll);
   },[]);
 
   return (

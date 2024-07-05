@@ -39,9 +39,9 @@ const StopWatch = () => {
 
 
 
-                let hours = Math.floor( startTime/3600);
+                let hours = Math.floor( startTime/3600);// 60*60=
 
-                let mins =  Math.floor((startTime%3600)/60);
+                let mins =  Math.floor((startTime%3600)/60); ///
 
                 let sec = Math.floor(startTime)%60
 

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+}
+
+Button{
+
+     margin: 10px;
+     padding: 20px;
+    border: none;
+font-size: 200px;
+    cursor: pointer;
+}

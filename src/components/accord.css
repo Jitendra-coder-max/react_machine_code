@@ -1,0 +1,23 @@
+.conatiner{
+   
+
+    border: 5px solid gray;
+    margin: 5px auto;
+
+    width: 50%
+    
+    
+}
+
+
+.accordian-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordian-content{
+    
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}

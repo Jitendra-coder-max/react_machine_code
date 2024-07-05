@@ -32,7 +32,7 @@ const Pagination = () => {
    } 
 // console.log([Array(products.length / 10)])
   return (
-    <div>
+    <div> 
         {
       
       <div className='products'>

@@ -1,0 +1,18 @@
+.container{
+
+
+    border:  5px solid gray;
+    height: 20px;
+    width: 90%;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+
+.innerDiv{
+
+    background-color: blue;
+    height: 20px;
+    width: 100%;
+    transition:   width  0.5 ease-in-out;
+}
