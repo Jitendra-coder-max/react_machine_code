@@ -777,13 +777,79 @@
 
 // export default App
 
+// import React from 'react'
+// import Search from './repeat10/Search'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Search />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Fetch from './repeat10/Fetch'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Fetch />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Fetching from './repeat10/Fetching'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Fetching/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react'
+// import Todo from './repeat10/Todo'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Todo/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Box from './repeat10/Box'
+// const App = () => {
+//   return (
+//     <div>App
+
+//       <Box/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
 import React from 'react'
-import Search from './repeat10/Search'
+import Tree from './Component/Tree'
+import dir from './Component/data'
 const App = () => {
   return (
     <div>App
 
-      <Search />
+      <Tree  dir={dir}/>
     </div>
   )
 }
